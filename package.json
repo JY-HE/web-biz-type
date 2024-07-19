@@ -1,0 +1,25 @@
+{
+    "name": "@rdapp/web-biz-type",
+    "version": "1.0.0",
+    "description": "服务层Api接口请求参数和响应参数的类型定义",
+    "main": "./src/index.ts",
+    "scripts": {
+        "update": "npm version patch",
+        "dev": "nodemon nodemon.json"
+    },
+    "author": "hjy",
+    "devDependencies": {
+        "@babel/core": "^7.24.8",
+        "@babel/eslint-parser": "^7.24.8",
+        "@babel/preset-env": "^7.24.8",
+        "@types/node": "^20.14.10",
+        "eslint": "^8.57.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-import": "^2.29.1",
+        "nodemon": "^2.0.15",
+        "prettier": "^1.19.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.3"
+    }
+}

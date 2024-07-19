@@ -1,0 +1,15 @@
+stages:
+  - publish
+
+publish_job:
+  stage: publish
+  script:
+    - chcp 65001
+    - CALL cmd /c npm whoami
+    - CALL cmd /c npm publish --registry http://registry.npm.rdapp.com/
+  only:
+    - publish
+  tags:
+    - NPM_Publish
+  environment:
+    name: 'web_biz_service_publish_env'
